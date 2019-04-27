@@ -11,7 +11,7 @@ import { Platform, StyleSheet, Text, View } from 'react-native';
 
 const helloWorld = Platform.select({
   ios: 'Hello World!!!',
-  android: 'Hello World!!!',
+  android: 'Hello World!!!',asdas
 });
 
 type Props = {};
