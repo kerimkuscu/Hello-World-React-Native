@@ -11,7 +11,7 @@ import { Platform, StyleSheet, Text, View } from 'react-native';
 
 const helloWorld = Platform.select({
   ios: 'Hello World!!!',
-  android: 'Hello World!!!',asdas
+  android: 'Hello World!!!',
 });
 
 type Props = {};
@@ -19,7 +19,9 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>{helloWorld}</Text>
+        <Text style={styles.welcome}>
+          {helloWorld}
+        </Text>
       </View>
     );
   }
